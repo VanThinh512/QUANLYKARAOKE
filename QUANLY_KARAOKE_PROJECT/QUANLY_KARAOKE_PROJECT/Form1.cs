@@ -55,5 +55,19 @@ namespace QUANLY_KARAOKE_PROJECT
                 MessageBox.Show(ex.Message);
             }
         }
+
+        private void btn_Thoat_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Bạn có muốn thoát ?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

@@ -51,6 +51,8 @@
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btn_Thoat = new System.Windows.Forms.Button();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Phong)).BeginInit();
             this.menuStrip1.SuspendLayout();
@@ -171,7 +173,7 @@
             this.quảnLýLoạiPhòngToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1309, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1315, 28);
             this.menuStrip1.TabIndex = 30;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -189,7 +191,7 @@
             this.col_STT,
             this.col_TenSanPham,
             this.col_DonGia});
-            this.dataGridView_SanPham.Location = new System.Drawing.Point(852, 84);
+            this.dataGridView_SanPham.Location = new System.Drawing.Point(853, 84);
             this.dataGridView_SanPham.Name = "dataGridView_SanPham";
             this.dataGridView_SanPham.RowHeadersWidth = 51;
             this.dataGridView_SanPham.RowTemplate.Height = 24;
@@ -268,11 +270,38 @@
             this.Column5.Name = "Column5";
             this.Column5.Width = 125;
             // 
+            // btn_Thoat
+            // 
+            this.btn_Thoat.Location = new System.Drawing.Point(1218, 616);
+            this.btn_Thoat.Name = "btn_Thoat";
+            this.btn_Thoat.Size = new System.Drawing.Size(75, 23);
+            this.btn_Thoat.TabIndex = 35;
+            this.btn_Thoat.Text = "Thoát";
+            this.btn_Thoat.UseVisualStyleBackColor = true;
+            this.btn_Thoat.Click += new System.EventHandler(this.btn_Thoat_Click);
+            // 
+            // guna2Button1
+            // 
+            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button1.ForeColor = System.Drawing.Color.White;
+            this.guna2Button1.Location = new System.Drawing.Point(668, 604);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.Size = new System.Drawing.Size(180, 45);
+            this.guna2Button1.TabIndex = 36;
+            this.guna2Button1.Text = "Nút test";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1309, 639);
+            this.ClientSize = new System.Drawing.Size(1315, 651);
+            this.Controls.Add(this.guna2Button1);
+            this.Controls.Add(this.btn_Thoat);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.txt_GioVao);
             this.Controls.Add(this.label2);
@@ -321,6 +350,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
+        private System.Windows.Forms.Button btn_Thoat;
+        private Guna.UI2.WinForms.Guna2Button guna2Button1;
     }
 }
 
