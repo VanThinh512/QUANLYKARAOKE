@@ -41,6 +41,7 @@
             this.col_Phong = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.quảnLýLoạiPhòngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.testMởForm4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dataGridView_SanPham = new System.Windows.Forms.DataGridView();
             this.col_STT = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.col_TenSanPham = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -54,7 +55,6 @@
             this.btn_Thoat = new System.Windows.Forms.Button();
             this.btn_Test1 = new Guna.UI2.WinForms.Guna2Button();
             this.btn_Test2 = new Guna.UI2.WinForms.Guna2Button();
-            this.testMởForm4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Phong)).BeginInit();
             this.menuStrip1.SuspendLayout();
@@ -187,6 +187,13 @@
             this.quảnLýLoạiPhòngToolStripMenuItem.Text = "Quản Lý Loại Phòng";
             this.quảnLýLoạiPhòngToolStripMenuItem.Click += new System.EventHandler(this.quảnLýLoạiPhòngToolStripMenuItem_Click);
             // 
+            // testMởForm4ToolStripMenuItem
+            // 
+            this.testMởForm4ToolStripMenuItem.Name = "testMởForm4ToolStripMenuItem";
+            this.testMởForm4ToolStripMenuItem.Size = new System.Drawing.Size(123, 24);
+            this.testMởForm4ToolStripMenuItem.Text = "Test mở form 4";
+            this.testMởForm4ToolStripMenuItem.Click += new System.EventHandler(this.testMởForm4ToolStripMenuItem_Click);
+            // 
             // dataGridView_SanPham
             // 
             this.dataGridView_SanPham.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -313,13 +320,6 @@
             this.btn_Test2.Text = "nút test 2";
             this.btn_Test2.Click += new System.EventHandler(this.btn_Test2_Click);
             // 
-            // testMởForm4ToolStripMenuItem
-            // 
-            this.testMởForm4ToolStripMenuItem.Name = "testMởForm4ToolStripMenuItem";
-            this.testMởForm4ToolStripMenuItem.Size = new System.Drawing.Size(123, 24);
-            this.testMởForm4ToolStripMenuItem.Text = "Test mở form 4";
-            this.testMởForm4ToolStripMenuItem.Click += new System.EventHandler(this.testMởForm4ToolStripMenuItem_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -339,6 +339,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.Text = "Màn Hình Chính";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.TextChanged += new System.EventHandler(this.Form1_TextChanged);
             this.groupBox1.ResumeLayout(false);
