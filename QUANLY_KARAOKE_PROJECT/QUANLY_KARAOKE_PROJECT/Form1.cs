@@ -78,14 +78,12 @@ namespace QUANLY_KARAOKE_PROJECT
 
         private void btn_Test2_Click(object sender, EventArgs e)
         {
-            Form4 frm = new Form4();
-            frm.Show();
+            
         }
 
         private void testMởForm4ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form4 frm = new Form4();
-            frm.Show();
+            
         }
     }
 }
