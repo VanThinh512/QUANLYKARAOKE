@@ -67,7 +67,13 @@ namespace QUANLY_KARAOKE_PROJECT
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            Form2 frm = new Form2();
+            frm.Show();
+        }
+
+        private void Form1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

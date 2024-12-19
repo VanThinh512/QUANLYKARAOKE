@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ADMIN\\source\\repos\\QUANLYKARAOKE_test1\\QUANLYKARAOKE\\QUANLY_KARAOKE_PROJECT\\",
+  "WorkspaceRootPath": "E:\\C#_Project\\testKaraoke\\test1\\QUANLYKARAOKE\\QUANLY_KARAOKE_PROJECT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{435784D9-233F-42FD-9B63-93614BCA8974}|QUANLY_KARAOKE_PROJECT\\QUANLY_KARAOKE_PROJECT.csproj|c:\\users\\admin\\source\\repos\\quanlykaraoke_test1\\quanlykaraoke\\quanly_karaoke_project\\quanly_karaoke_project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{435784D9-233F-42FD-9B63-93614BCA8974}|QUANLY_KARAOKE_PROJECT\\QUANLY_KARAOKE_PROJECT.csproj|e:\\c#_project\\testkaraoke\\test1\\quanlykaraoke\\quanly_karaoke_project\\quanly_karaoke_project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{435784D9-233F-42FD-9B63-93614BCA8974}|QUANLY_KARAOKE_PROJECT\\QUANLY_KARAOKE_PROJECT.csproj|solutionrelative:quanly_karaoke_project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{435784D9-233F-42FD-9B63-93614BCA8974}|QUANLY_KARAOKE_PROJECT\\QUANLY_KARAOKE_PROJECT.csproj|c:\\users\\admin\\source\\repos\\quanlykaraoke_test1\\quanlykaraoke\\quanly_karaoke_project\\quanly_karaoke_project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{435784D9-233F-42FD-9B63-93614BCA8974}|QUANLY_KARAOKE_PROJECT\\QUANLY_KARAOKE_PROJECT.csproj|E:\\C#_Project\\testKaraoke\\test1\\QUANLYKARAOKE\\QUANLY_KARAOKE_PROJECT\\quanly_karaoke_project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{435784D9-233F-42FD-9B63-93614BCA8974}|QUANLY_KARAOKE_PROJECT\\QUANLY_KARAOKE_PROJECT.csproj|solutionrelative:quanly_karaoke_project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{435784D9-233F-42FD-9B63-93614BCA8974}|QUANLY_KARAOKE_PROJECT\\QUANLY_KARAOKE_PROJECT.csproj|e:\\c#_project\\testkaraoke\\test1\\quanlykaraoke\\quanly_karaoke_project\\quanly_karaoke_project\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{435784D9-233F-42FD-9B63-93614BCA8974}|QUANLY_KARAOKE_PROJECT\\QUANLY_KARAOKE_PROJECT.csproj|solutionrelative:quanly_karaoke_project\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,21 +34,29 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form2.cs [Design]",
+              "DocumentMoniker": "E:\\C#_Project\\testKaraoke\\test1\\QUANLYKARAOKE\\QUANLY_KARAOKE_PROJECT\\QUANLY_KARAOKE_PROJECT\\Form2.cs",
+              "RelativeDocumentMoniker": "QUANLY_KARAOKE_PROJECT\\Form2.cs",
+              "ToolTip": "E:\\C#_Project\\testKaraoke\\test1\\QUANLYKARAOKE\\QUANLY_KARAOKE_PROJECT\\QUANLY_KARAOKE_PROJECT\\Form2.cs [Design]",
+              "RelativeToolTip": "QUANLY_KARAOKE_PROJECT\\Form2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T05:14:39.73Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\QUANLYKARAOKE_test1\\QUANLYKARAOKE\\QUANLY_KARAOKE_PROJECT\\QUANLY_KARAOKE_PROJECT\\Form1.cs",
+              "DocumentMoniker": "E:\\C#_Project\\testKaraoke\\test1\\QUANLYKARAOKE\\QUANLY_KARAOKE_PROJECT\\QUANLY_KARAOKE_PROJECT\\Form1.cs",
               "RelativeDocumentMoniker": "QUANLY_KARAOKE_PROJECT\\Form1.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\QUANLYKARAOKE_test1\\QUANLYKARAOKE\\QUANLY_KARAOKE_PROJECT\\QUANLY_KARAOKE_PROJECT\\Form1.cs",
+              "ToolTip": "E:\\C#_Project\\testKaraoke\\test1\\QUANLYKARAOKE\\QUANLY_KARAOKE_PROJECT\\QUANLY_KARAOKE_PROJECT\\Form1.cs",
               "RelativeToolTip": "QUANLY_KARAOKE_PROJECT\\Form1.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAIwC8AAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-17T13:30:11.355Z",
               "EditorCaption": ""
@@ -53,9 +65,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\QUANLYKARAOKE_test1\\QUANLYKARAOKE\\QUANLY_KARAOKE_PROJECT\\QUANLY_KARAOKE_PROJECT\\Form1.cs",
+              "DocumentMoniker": "E:\\C#_Project\\testKaraoke\\test1\\QUANLYKARAOKE\\QUANLY_KARAOKE_PROJECT\\QUANLY_KARAOKE_PROJECT\\Form1.cs",
               "RelativeDocumentMoniker": "QUANLY_KARAOKE_PROJECT\\Form1.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\QUANLYKARAOKE_test1\\QUANLYKARAOKE\\QUANLY_KARAOKE_PROJECT\\QUANLY_KARAOKE_PROJECT\\Form1.cs [Design]",
+              "ToolTip": "E:\\C#_Project\\testKaraoke\\test1\\QUANLYKARAOKE\\QUANLY_KARAOKE_PROJECT\\QUANLY_KARAOKE_PROJECT\\Form1.cs [Design]",
               "RelativeToolTip": "QUANLY_KARAOKE_PROJECT\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-17T13:29:23.095Z",

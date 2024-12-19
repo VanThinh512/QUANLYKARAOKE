@@ -313,6 +313,7 @@
             this.Name = "Form1";
             this.Text = "Màn Hình Chính";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.TextChanged += new System.EventHandler(this.Form1_TextChanged);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Phong)).EndInit();
