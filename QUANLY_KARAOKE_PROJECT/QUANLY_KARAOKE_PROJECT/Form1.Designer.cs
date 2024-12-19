@@ -54,6 +54,7 @@
             this.btn_Thoat = new System.Windows.Forms.Button();
             this.btn_Test1 = new Guna.UI2.WinForms.Guna2Button();
             this.btn_Test2 = new Guna.UI2.WinForms.Guna2Button();
+            this.testMởForm4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Phong)).BeginInit();
             this.menuStrip1.SuspendLayout();
@@ -171,7 +172,8 @@
             // 
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.quảnLýLoạiPhòngToolStripMenuItem});
+            this.quảnLýLoạiPhòngToolStripMenuItem,
+            this.testMởForm4ToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1315, 28);
@@ -311,11 +313,18 @@
             this.btn_Test2.Text = "nút test 2";
             this.btn_Test2.Click += new System.EventHandler(this.btn_Test2_Click);
             // 
+            // testMởForm4ToolStripMenuItem
+            // 
+            this.testMởForm4ToolStripMenuItem.Name = "testMởForm4ToolStripMenuItem";
+            this.testMởForm4ToolStripMenuItem.Size = new System.Drawing.Size(123, 24);
+            this.testMởForm4ToolStripMenuItem.Text = "Test mở form 4";
+            this.testMởForm4ToolStripMenuItem.Click += new System.EventHandler(this.testMởForm4ToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1315, 651);
+            this.ClientSize = new System.Drawing.Size(1315, 755);
             this.Controls.Add(this.btn_Test2);
             this.Controls.Add(this.btn_Test1);
             this.Controls.Add(this.btn_Thoat);
@@ -372,6 +381,7 @@
         private System.Windows.Forms.Button btn_Thoat;
         private Guna.UI2.WinForms.Guna2Button btn_Test1;
         private Guna.UI2.WinForms.Guna2Button btn_Test2;
+        private System.Windows.Forms.ToolStripMenuItem testMởForm4ToolStripMenuItem;
     }
 }
 
