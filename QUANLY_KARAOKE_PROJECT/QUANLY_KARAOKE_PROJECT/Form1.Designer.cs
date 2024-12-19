@@ -52,7 +52,8 @@
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btn_Thoat = new System.Windows.Forms.Button();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_Test1 = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_Test2 = new Guna.UI2.WinForms.Guna2Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Phong)).BeginInit();
             this.menuStrip1.SuspendLayout();
@@ -280,27 +281,43 @@
             this.btn_Thoat.UseVisualStyleBackColor = true;
             this.btn_Thoat.Click += new System.EventHandler(this.btn_Thoat_Click);
             // 
-            // guna2Button1
+            // btn_Test1
             // 
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Location = new System.Drawing.Point(668, 604);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(180, 45);
-            this.guna2Button1.TabIndex = 36;
-            this.guna2Button1.Text = "Nút test";
-            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
+            this.btn_Test1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_Test1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_Test1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_Test1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_Test1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_Test1.ForeColor = System.Drawing.Color.White;
+            this.btn_Test1.Location = new System.Drawing.Point(668, 604);
+            this.btn_Test1.Name = "btn_Test1";
+            this.btn_Test1.Size = new System.Drawing.Size(180, 45);
+            this.btn_Test1.TabIndex = 36;
+            this.btn_Test1.Text = "Nút test 1";
+            this.btn_Test1.Click += new System.EventHandler(this.guna2Button1_Click);
+            // 
+            // btn_Test2
+            // 
+            this.btn_Test2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_Test2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_Test2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_Test2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_Test2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_Test2.ForeColor = System.Drawing.Color.White;
+            this.btn_Test2.Location = new System.Drawing.Point(918, 604);
+            this.btn_Test2.Name = "btn_Test2";
+            this.btn_Test2.Size = new System.Drawing.Size(180, 45);
+            this.btn_Test2.TabIndex = 0;
+            this.btn_Test2.Text = "nút test 2";
+            this.btn_Test2.Click += new System.EventHandler(this.btn_Test2_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1315, 651);
-            this.Controls.Add(this.guna2Button1);
+            this.Controls.Add(this.btn_Test2);
+            this.Controls.Add(this.btn_Test1);
             this.Controls.Add(this.btn_Thoat);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.txt_GioVao);
@@ -310,6 +327,7 @@
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.dataGridView_SanPham);
             this.Controls.Add(this.dataGridView_SanPhamDaChon);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.Text = "Màn Hình Chính";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -352,7 +370,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.Button btn_Thoat;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button btn_Test1;
+        private Guna.UI2.WinForms.Guna2Button btn_Test2;
     }
 }
 

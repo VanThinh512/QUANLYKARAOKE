@@ -75,5 +75,11 @@ namespace QUANLY_KARAOKE_PROJECT
         {
 
         }
+
+        private void btn_Test2_Click(object sender, EventArgs e)
+        {
+            Form3 frm = new Form3();
+            frm.Show();
+        }
     }
 }
